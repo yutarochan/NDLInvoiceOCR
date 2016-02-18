@@ -11,10 +11,10 @@ except ImportError:
 import pytesseract
 
 # Perform OCR
-result = pytesseract.image_to_string(Image.open('../../data/sample1.jpg'))
+result = pytesseract.image_to_string(Image.open('../../data/sample2.jpg'))
 
 # Write out results to textfile
-text_file = open("result/tesseractDemo_raw_result.txt", "w")
+text_file = open("result/tesseractDemo_raw_result2.txt", "w")
 text_file.write(result)
 text_file.close()
 
